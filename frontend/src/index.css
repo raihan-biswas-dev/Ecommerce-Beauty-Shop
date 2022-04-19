@@ -1,0 +1,53 @@
+*{
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+.card{
+  border: 0;
+}
+a{
+  text-decoration: none;
+}
+
+.menu a{
+color:#000;
+font-size: 16px;
+font-weight: 500;
+margin-left: 24px;
+}
+
+.menu a:hover{
+  color: rgb(7 80 30);
+  transition: all .3s;
+}
+
+.productBtn :hover{
+  background: #000;
+  color: #fff;
+}
+
+.btn-check:focus+.btn-light, .btn-light:focus {
+  color: transparent;
+  background-color: transparent;
+  border-color: transparent;
+  box-shadow: none;
+}
+
+.loading{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rating{
+  color: rgb(7, 80, 30);
+}
+.ratingBg{
+  background: rgb(7, 80, 30) !important;
+}
+
+.addToCart{
+  background: rgb(7, 80, 30) !important;background: '';
+}
